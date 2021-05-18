@@ -9,23 +9,51 @@
 /* Begin PBXBuildFile section */
 		B2A20FE92651392F001A1F44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A20FE82651392F001A1F44 /* AppDelegate.swift */; };
 		B2A20FEB2651392F001A1F44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A20FEA2651392F001A1F44 /* SceneDelegate.swift */; };
-		B2A20FED2651392F001A1F44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A20FEC2651392F001A1F44 /* ContentView.swift */; };
 		B2A20FF02651392F001A1F44 /* Flights_on_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2A20FEE2651392F001A1F44 /* Flights_on_CoreData.xcdatamodeld */; };
 		B2A20FF226513930001A1F44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A20FF126513930001A1F44 /* Assets.xcassets */; };
 		B2A20FF526513930001A1F44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A20FF426513930001A1F44 /* Preview Assets.xcassets */; };
 		B2A20FF826513930001A1F44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A20FF626513930001A1F44 /* LaunchScreen.storyboard */; };
+		B2AB9E9A2652CEEF00ADA53E /* FlightFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9E932652CEEF00ADA53E /* FlightFetcher.swift */; };
+		B2AB9E9B2652CEEF00ADA53E /* FlightsEnrouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9E942652CEEF00ADA53E /* FlightsEnrouteView.swift */; };
+		B2AB9E9C2652CEEF00ADA53E /* Airlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9E952652CEEF00ADA53E /* Airlines.swift */; };
+		B2AB9E9D2652CEEF00ADA53E /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9E962652CEEF00ADA53E /* FoundationExtensions.swift */; };
+		B2AB9E9F2652CEEF00ADA53E /* Airports.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9E982652CEEF00ADA53E /* Airports.swift */; };
+		B2AB9EA32652E26500ADA53E /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9EA22652E26500ADA53E /* Airport.swift */; };
+		B2AB9EAB2652E69200ADA53E /* FilterFlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9EAA2652E69100ADA53E /* FilterFlights.swift */; };
+		B2AB9EB62652FCC600ADA53E /* FlightAware+AirlineInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9EB02652FCC600ADA53E /* FlightAware+AirlineInfo.swift */; };
+		B2AB9EB72652FCC600ADA53E /* FAFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9EB12652FCC600ADA53E /* FAFlight.swift */; };
+		B2AB9EB82652FCC600ADA53E /* FlightAware+AirportInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9EB22652FCC600ADA53E /* FlightAware+AirportInfo.swift */; };
+		B2AB9EB92652FCC600ADA53E /* FlightAwareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9EB32652FCC600ADA53E /* FlightAwareRequest.swift */; };
+		B2AB9EBA2652FCC600ADA53E /* FlightSimulationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9EB42652FCC600ADA53E /* FlightSimulationData.swift */; };
+		B2AB9EBB2652FCC600ADA53E /* FlightAware+Enroute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9EB52652FCC600ADA53E /* FlightAware+Enroute.swift */; };
+		B2AB9EBE2653791300ADA53E /* Airline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9EBD2653791300ADA53E /* Airline.swift */; };
+		B2AB9EC126537C2B00ADA53E /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB9EC026537C2B00ADA53E /* Flight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B2A20FE52651392F001A1F44 /* Flights_on_CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flights_on_CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A20FE82651392F001A1F44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2A20FEA2651392F001A1F44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2A20FEC2651392F001A1F44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B2A20FEF2651392F001A1F44 /* Flights_on_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flights_on_CoreData.xcdatamodel; sourceTree = "<group>"; };
 		B2A20FF126513930001A1F44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2A20FF426513930001A1F44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2A20FF726513930001A1F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2A20FF926513930001A1F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2AB9E932652CEEF00ADA53E /* FlightFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightFetcher.swift; sourceTree = "<group>"; };
+		B2AB9E942652CEEF00ADA53E /* FlightsEnrouteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightsEnrouteView.swift; sourceTree = "<group>"; };
+		B2AB9E952652CEEF00ADA53E /* Airlines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airlines.swift; sourceTree = "<group>"; };
+		B2AB9E962652CEEF00ADA53E /* FoundationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
+		B2AB9E982652CEEF00ADA53E /* Airports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airports.swift; sourceTree = "<group>"; };
+		B2AB9EA22652E26500ADA53E /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		B2AB9EAA2652E69100ADA53E /* FilterFlights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilterFlights.swift; path = "../../../../../Desktop/Enroute L11/Enroute/FilterFlights.swift"; sourceTree = "<group>"; };
+		B2AB9EB02652FCC600ADA53E /* FlightAware+AirlineInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlightAware+AirlineInfo.swift"; sourceTree = "<group>"; };
+		B2AB9EB12652FCC600ADA53E /* FAFlight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAFlight.swift; sourceTree = "<group>"; };
+		B2AB9EB22652FCC600ADA53E /* FlightAware+AirportInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlightAware+AirportInfo.swift"; sourceTree = "<group>"; };
+		B2AB9EB32652FCC600ADA53E /* FlightAwareRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightAwareRequest.swift; sourceTree = "<group>"; };
+		B2AB9EB42652FCC600ADA53E /* FlightSimulationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightSimulationData.swift; sourceTree = "<group>"; };
+		B2AB9EB52652FCC600ADA53E /* FlightAware+Enroute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlightAware+Enroute.swift"; sourceTree = "<group>"; };
+		B2AB9EBD2653791300ADA53E /* Airline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airline.swift; sourceTree = "<group>"; };
+		B2AB9EC026537C2B00ADA53E /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +86,16 @@
 		B2A20FE72651392F001A1F44 /* Flights_on_CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				B2AB9EAF2652FCC600ADA53E /* FlightAware */,
+				B2AB9EA12652E23C00ADA53E /* Extensions */,
+				B2AB9EAA2652E69100ADA53E /* FilterFlights.swift */,
+				B2AB9E952652CEEF00ADA53E /* Airlines.swift */,
+				B2AB9E982652CEEF00ADA53E /* Airports.swift */,
+				B2AB9E932652CEEF00ADA53E /* FlightFetcher.swift */,
+				B2AB9E942652CEEF00ADA53E /* FlightsEnrouteView.swift */,
+				B2AB9E962652CEEF00ADA53E /* FoundationExtensions.swift */,
 				B2A20FE82651392F001A1F44 /* AppDelegate.swift */,
 				B2A20FEA2651392F001A1F44 /* SceneDelegate.swift */,
-				B2A20FEC2651392F001A1F44 /* ContentView.swift */,
 				B2A20FF126513930001A1F44 /* Assets.xcassets */,
 				B2A20FF626513930001A1F44 /* LaunchScreen.storyboard */,
 				B2A20FF926513930001A1F44 /* Info.plist */,
@@ -76,6 +111,30 @@
 				B2A20FF426513930001A1F44 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2AB9EA12652E23C00ADA53E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB9EA22652E26500ADA53E /* Airport.swift */,
+				B2AB9EBD2653791300ADA53E /* Airline.swift */,
+				B2AB9EC026537C2B00ADA53E /* Flight.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B2AB9EAF2652FCC600ADA53E /* FlightAware */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB9EB02652FCC600ADA53E /* FlightAware+AirlineInfo.swift */,
+				B2AB9EB12652FCC600ADA53E /* FAFlight.swift */,
+				B2AB9EB22652FCC600ADA53E /* FlightAware+AirportInfo.swift */,
+				B2AB9EB32652FCC600ADA53E /* FlightAwareRequest.swift */,
+				B2AB9EB42652FCC600ADA53E /* FlightSimulationData.swift */,
+				B2AB9EB52652FCC600ADA53E /* FlightAware+Enroute.swift */,
+			);
+			name = FlightAware;
+			path = "../../../../../Desktop/Enroute L12/Enroute/FlightAware";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,10 +207,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2AB9EB72652FCC600ADA53E /* FAFlight.swift in Sources */,
+				B2AB9E9C2652CEEF00ADA53E /* Airlines.swift in Sources */,
+				B2AB9EBA2652FCC600ADA53E /* FlightSimulationData.swift in Sources */,
+				B2AB9EAB2652E69200ADA53E /* FilterFlights.swift in Sources */,
+				B2AB9E9F2652CEEF00ADA53E /* Airports.swift in Sources */,
+				B2AB9EBB2652FCC600ADA53E /* FlightAware+Enroute.swift in Sources */,
+				B2AB9EBE2653791300ADA53E /* Airline.swift in Sources */,
 				B2A20FE92651392F001A1F44 /* AppDelegate.swift in Sources */,
+				B2AB9E9A2652CEEF00ADA53E /* FlightFetcher.swift in Sources */,
+				B2AB9E9B2652CEEF00ADA53E /* FlightsEnrouteView.swift in Sources */,
 				B2A20FEB2651392F001A1F44 /* SceneDelegate.swift in Sources */,
 				B2A20FF02651392F001A1F44 /* Flights_on_CoreData.xcdatamodeld in Sources */,
-				B2A20FED2651392F001A1F44 /* ContentView.swift in Sources */,
+				B2AB9EB92652FCC600ADA53E /* FlightAwareRequest.swift in Sources */,
+				B2AB9EC126537C2B00ADA53E /* Flight.swift in Sources */,
+				B2AB9EB82652FCC600ADA53E /* FlightAware+AirportInfo.swift in Sources */,
+				B2AB9EB62652FCC600ADA53E /* FlightAware+AirlineInfo.swift in Sources */,
+				B2AB9EA32652E26500ADA53E /* Airport.swift in Sources */,
+				B2AB9E9D2652CEEF00ADA53E /* FoundationExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
