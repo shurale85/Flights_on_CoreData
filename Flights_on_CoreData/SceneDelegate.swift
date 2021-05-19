@@ -1,10 +1,5 @@
 //
 //  SceneDelegate.swift
-//  Flights_on_CoreData
-//
-//  Created by NewUSER on 16.05.2021.
-//
-
 import UIKit
 import SwiftUI
 
